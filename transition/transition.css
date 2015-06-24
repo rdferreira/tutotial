@@ -1,0 +1,36 @@
+.transition {
+	width: 100px;
+	height: 100px;
+	padding: 10px; 
+	background-color: skyblue;
+	color: white;
+
+	-webkit-transition: -webkit-transform 3s, width 3s, height 3s, background-color 3s, font-size 3s, color 3s;
+	   -moz-transition: -moz-transform 3s, width 3s, height 3s, background-color 3s, font-size 3s, color 3s;
+	   	 -o-transition: -moz-transform 3s, width 3s, height 3s, background-color 3s, font-size 3s, color 3s;
+	        transition: transform 3s, width 3s, height 3s, background-color 3s, font-size 3s, color 3s;
+}
+
+.transition:hover {
+	width: 500px;
+	height: 500px;
+	background-color: lime;
+	font-size: 48px;
+	color: black;
+	
+	-webkit-transform: rotate(180deg);
+	   -moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		 -o-transform: rotate(180deg);
+			transform: rotate(180deg);
+}
+
+
+/*
+exemplo:
+
+propriedade + valor
+webkit      + rotate
+
+
+*/
