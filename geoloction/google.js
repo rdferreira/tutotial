@@ -1,6 +1,11 @@
 window.onload = function() {
 	
-	var latLng = new google.maps.LatLng(-23.581474099999998, -46.672693699999996);
+	navigator.geolocation.getCurrentPosition(function(geoPosition){
+		addMap(geoPosition.coords.latitude, geoPosition.coords.longitude);
+	});
+
+function addMap(latitude, longitude){
+	var latLng = new google.maps.LatLng(latitude,longitude);
 
 	var map = new google.maps.Map(document.querySelector('.mapa'), {
 		zoom: 16,
@@ -12,4 +17,5 @@ window.onload = function() {
 		map: map,
 		title: 'Here !!!'
 	});
+}
 };
