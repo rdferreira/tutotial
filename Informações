@@ -1,0 +1,13 @@
+localStorage
+localStorage.name = 'Raul Gil'
+localStorage.name
+"Raul Gil" - resultado
+localStorage.age = 79;
+79   - resultado
+localStorage.age 
+"79"   - resultado
+localStorage.age +1
+"791"    -  resultado
+localStorage.clear
+localStorage.clear()   -  função
+localStorage.removeItem('age')  - resultado
