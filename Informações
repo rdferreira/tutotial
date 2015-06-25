@@ -11,3 +11,16 @@ localStorage.age +1
 localStorage.clear
 localStorage.clear()   -  função
 localStorage.removeItem('age')  - resultado
+
+
+terminal
+
+cd desktop
+cd /Volumes/
+cd Rodrigo/
+cd www.tutorial.com/
+
+http-server -a 127.0.0.1 -p 8080
+
+git pull origin
+git push origin master
