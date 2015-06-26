@@ -1,0 +1,27 @@
+.column {
+	background-color: purple;
+}
+
+.column-1{
+	background-color: darkgrey;	
+}
+.column-2{
+	background-color: silver;
+}
+.column-3{
+	background-color: darkgrey;
+}
+.column4 {
+	background-color: black;
+}
+
+.column,
+.column4 {
+	height: 200px;
+}
+
+.column-1,
+.column-2,
+.column-3 {
+	height: 600px;
+}
