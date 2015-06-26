@@ -1,0 +1,19 @@
+.col-1{
+	background-color: limegreen;
+}
+.col-2{
+	background-color: lightsalmon;
+}
+.col-3{
+	background-color: lime;
+}
+.col-4{
+	background-color: linen;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+	height: 600px;
+}
