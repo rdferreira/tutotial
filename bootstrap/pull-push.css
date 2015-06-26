@@ -1,0 +1,22 @@
+.col-1 {
+	background-color: mediumseagreen;
+}
+
+.col-2 {
+	background-color: mediumvioletred;
+}
+
+.col-3 {
+	background-color: plum;
+}
+
+.col-4 {
+	background-color: aquamarine;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+	height: 300px;
+}
