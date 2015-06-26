@@ -1,0 +1,11 @@
+.col-1 {
+	background-color: silver;
+}
+.col-2 {
+	background-color: cornflowerblue;
+}
+
+.col-1,
+.col-2 {
+	height: 300px;
+}

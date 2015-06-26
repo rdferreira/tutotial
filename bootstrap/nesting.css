@@ -1,0 +1,22 @@
+h1, h2 {
+	margin: 0;
+}
+
+.parent-a {
+	background-color: beige;
+}
+.child-1 {
+	background-color: burlywood;
+}
+.child-2 {
+	background-color: rebeccapurple;
+}
+
+.parent-b {
+	background-color: rosybrown;
+}
+
+.parent-a,
+.parent-b {
+	height: 600px;
+}
