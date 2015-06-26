@@ -1,0 +1,56 @@
+.column-1 {
+	background-color: lightgreen;
+}
+.column-2 {
+	background-color: lightcoral;
+}
+.column-3 {
+	background-color: lightskyblue;
+}
+
+.column-1,
+.column-2,
+.column-3,
+.column-4,
+.column-5,
+.column-6,
+.column-7,
+.column-8,
+.column-9,
+.column-10,
+.column-11,
+.column-12 {
+	height: 100px;
+}
+
+.column-4 {
+	background-color: lightslategray;
+}
+
+.column-5 {
+	background-color: lightgrey;
+}
+
+.column-6 {
+	background-color: lightsalmon;
+}
+
+.column-7 {
+	background-color: lightpink;
+}
+.column-8 {
+	background-color: lightgoldenrodyellow;
+}
+.column-9 {
+	background-color: lightseagreen;
+}
+
+.column-10 {
+	background-color: salmon;
+}
+.column-11 {
+	background-color: paleturquoise;
+}
+.column-12 {
+	background-color: mediumaquamarine;
+}
