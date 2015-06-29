@@ -1,0 +1,11 @@
+.btn-info {
+  color: darkred;
+  background-color: greenyellow;
+  border-color: purple;
+}
+
+.btn-info:hover {
+  color: blanchedalmond;
+  background-color: lime;
+  border-color: grey;
+}
