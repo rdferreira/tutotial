@@ -13,22 +13,23 @@
 		
 		<form class="col-sm-6">
 			
-			<div class="form-group">
+			<div class="form-group has-success has-feedback">
 				
 				<label for="input">Input</label>
 				<input type="text" id="input" class="form-control">
+				<span class="glyphicon glyphicon-ok form-control-feedback"></span>
 
 			</div>
 
-			<div class="form-group">
+			<div class="form-group has-warning has-feedback">
 
 				<input type="radio" name="radio" id="radio-1">
 				<label for="radio-1">Radio 1</label>
-				
+
 				<input type="radio" name="radio" id="radio-2">
 				<label for="radio-2">Radio 2</label>
 				
-				<!-- <label for="select">Select</label>
+				<label for="select">Select</label>
 				<select id="select" class="form-control">
 					<option value="" value-opt-1="">Opition 1</option>
 					<option value="" value-opt-2="">Opition 2</option>
@@ -36,13 +37,15 @@
 					<option value="" value-opt-4="">Opition 4</option>
 					<option value="" value-opt-5="">Opition 5</option>
 					<option value="" value-opt-6="">Opition 6</option>
-				</select> -->
+				</select> 
+				<span class="glyphicon glyphicon-warning-sign form-control-feedback">&nbsp;</span>
 
 			</div>
 
-			<div class="form-group">
+			<div class="form-group has-error has-feedback">
 				<label for="textArea">Text Area</label>
 				<textarea id="textarea" class="form-control" cols="30" rows="10"></textarea>
+				<span class="glyphicon glyphicon-remove form-control-feedback"></span>
 			</div>
 
 			<button class="btn btn-default">Submit</button>
