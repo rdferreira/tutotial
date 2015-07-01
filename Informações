@@ -24,3 +24,5 @@ http-server -a 127.0.0.1 -p 8080
 
 git pull origin
 git push origin master
+
+advanced rest client application - para testar o back end... muito bom.
