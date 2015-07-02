@@ -1,0 +1,52 @@
+.gap {
+	margin: 10px;
+	padding: 5px;
+}
+
+.font {
+	font-size: 24px;
+	font-family: Arial;
+	font-style: italic;
+}
+.hover {
+	background-color: lighten(yellow, 10%);
+}
+
+.item-1:extend(.gap, .font) {
+	color: red;
+	&:hover:extend(.hover){
+		color: white;
+	}
+}
+
+.item-2:extend(.gap, .font) {
+	color: green;
+	&:hover:extend(.hover){
+		color: lime;
+	}
+}
+
+.item-3:extend(.gap, .font) {
+	color: skyblue;
+	&:hover:extend(.hover){
+		color: purple;
+	}
+}
+
+// .item-1(.gap, .font) {
+// 	color: red;
+// }
+
+// .item-2(.gap, .font) {
+// 	color: green;
+// }
+
+// .item-3(.gap, .font) {
+// 	color: skyblue;
+// }
+
+// .item-1,
+// .item-2,
+// .item-3 {
+// 	&:extend(.gap,.font){}
+// }

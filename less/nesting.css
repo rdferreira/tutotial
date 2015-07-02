@@ -1,0 +1,21 @@
+.parent {
+  color: red;
+  font-size: 12px;
+}
+.parent .child {
+  color: blue;
+  padding: 15px;
+}
+.parent .child:hover {
+  background-color: lime;
+}
+.parent p {
+  color: #990000;
+  font-size: 30px;
+}
+.parent p::first-line {
+  font-size: 10px;
+}
+.parent > h2 {
+  background-color: yellow;
+}

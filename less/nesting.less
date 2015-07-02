@@ -1,0 +1,27 @@
+.parent {
+	color: red;
+	font-size: 12px;
+
+	.child {
+		color: blue;
+		padding: 15px;
+
+		&:hover {
+			background-color: lime;
+		}
+	}
+
+	p {
+		color: darken(red, 20%);
+		font-size: 30px;
+
+		&::first-line {
+			font-size: 10px;
+		}
+		
+	}
+
+	> h2 {
+		background-color: yellow;
+	}
+}

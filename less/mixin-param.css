@@ -1,0 +1,50 @@
+.item-1 {
+  margin: 10px;
+  padding: 5px;
+  font-size: 30px;
+  background-color: blue;
+  background-image: url('http://lorempixel.com/300/300/cats/1');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.item-2 {
+  margin: 5px;
+  padding: 2.5px;
+  font-size: 40px;
+  background-color: black;
+  background-image: url('http://lorempixel.com/300/300/fashion/3');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.item-3 {
+  margin: 15px;
+  padding: 7.5px;
+  font-size: 50px;
+  background-color: purple;
+  background-image: url('http://lorempixel.com/200/200/people/2');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.item-4 {
+  margin: 10px;
+  padding: 5px;
+  font-size: 60px;
+  background-color: lime;
+  background-image: url('http://lorempixel.com/100/100/food/6');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.item-5 {
+  margin: 10px;
+  padding: 5px;
+  font-size: 70px;
+  background-color: orange;
+  background-image: url('http://lorempixel.com/500/500/sports/7');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
